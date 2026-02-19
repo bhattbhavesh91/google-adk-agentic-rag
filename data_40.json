@@ -1,0 +1,154 @@
+[
+  {
+    "id": "1",
+    "text": "Python is a high-level programming language used for backend development, machine learning, and data processing. Many developers use Python with Redis to build scalable search systems."
+  },
+  {
+    "id": "2",
+    "text": "The python is a large non-venomous snake found in Africa and Asia. Unlike other snakes, the python kills its prey by constriction rather than venom injection."
+  },
+  {
+    "id": "3",
+    "text": "Java is widely used in enterprise backend systems and integrates with Redis for caching and search optimization in distributed environments."
+  },
+  {
+    "id": "4",
+    "text": "Java is an Indonesian island known for its volcanoes, coffee production, and dense population centers including Jakarta."
+  },
+  {
+    "id": "5",
+    "text": "Apple released a new MacBook model featuring improved battery life and a faster processor designed for AI workloads."
+  },
+  {
+    "id": "6",
+    "text": "An apple is an edible fruit produced by an apple tree. Apples are rich in fiber and vitamin C and are commonly used in pies and juices."
+  },
+  {
+    "id": "7",
+    "text": "The jaguar is a large wild cat native to the Americas, known for its powerful bite and spotted coat."
+  },
+  {
+    "id": "8",
+    "text": "Jaguar produces luxury vehicles with advanced engine performance and modern infotainment systems."
+  },
+  {
+    "id": "9",
+    "text": "Mercury is the smallest planet in the solar system and orbits the Sun faster than any other planet."
+  },
+  {
+    "id": "10",
+    "text": "Mercury is a heavy metal that is toxic to humans and can contaminate water supplies through industrial waste."
+  },
+  {
+    "id": "11",
+    "text": "Redis supports vector similarity search using embeddings and combines it with BM25 keyword scoring for hybrid search ranking."
+  },
+  {
+    "id": "12",
+    "text": "Hybrid cars use both an internal combustion engine and an electric motor to improve fuel efficiency and reduce emissions."
+  },
+  {
+    "id": "13",
+    "text": "A model in machine learning is trained using labeled data to make predictions based on learned patterns."
+  },
+  {
+    "id": "14",
+    "text": "A fashion model walks the runway wearing designer clothing during international fashion week events."
+  },
+  {
+    "id": "15",
+    "text": "Amazon provides cloud services including managed Redis deployments for scalable applications."
+  },
+  {
+    "id": "16",
+    "text": "The Amazon rainforest is the largest tropical rainforest in the world and plays a crucial role in regulating the Earth's climate."
+  },
+  {
+    "id": "17",
+    "text": "Tesla develops electric vehicles powered by advanced battery technology and autonomous driving software."
+  },
+  {
+    "id": "18",
+    "text": "Nikola Tesla was a Serbian-American inventor known for his contributions to alternating current electrical systems."
+  },
+  {
+    "id": "19",
+    "text": "A bank provides financial services such as loans, savings accounts, and investment products."
+  },
+  {
+    "id": "20",
+    "text": "The river bank was flooded after heavy rainfall caused the water level to rise rapidly."
+  },
+  {
+    "id": "21",
+    "text": "Redis is an in-memory data structure store that can be used as a database, cache, and message broker. It supports data structures such as strings, hashes, lists, and sets."
+  },
+  {
+    "id": "22",
+    "text": "Vector databases store embeddings and allow similarity search. Redis Stack includes vector search capabilities through the RediSearch module, making it useful for RAG pipelines."
+  },
+  {
+    "id": "23",
+    "text": "Machine learning models convert text into embeddings — dense numerical vectors that capture semantic meaning. Cosine similarity is commonly used to compare these vectors."
+  },
+  {
+    "id": "24",
+    "text": "RAG stands for Retrieval-Augmented Generation. It combines information retrieval with large language models to produce grounded, factual answers from a knowledge base."
+  },
+  {
+    "id": "25",
+    "text": "Agentic RAG extends basic RAG by giving an LLM the ability to call tools, refine its search, and reason over multiple retrieval steps before generating a final answer."
+  },
+  {
+    "id": "26",
+    "text": "Google Gemini is a multimodal large language model developed by Google DeepMind. It is accessible via Google AI Studio and supports tool use, function calling, and long context."
+  },
+  {
+    "id": "27",
+    "text": "Google ADK (Agent Development Kit) is a Python framework for building LLM-powered agents. It provides abstractions for tools, memory, sessions, and multi-agent orchestration."
+  },
+  {
+    "id": "28",
+    "text": "Traditional keyword search uses BM25 or TF-IDF scoring and fails on semantic queries. For example, searching 'automobile' will not match documents that only mention 'car'."
+  },
+  {
+    "id": "29",
+    "text": "HNSW (Hierarchical Navigable Small World) is an approximate nearest neighbour algorithm used in vector databases. It offers sub-linear query time with high recall."
+  },
+  {
+    "id": "31",
+    "text": "Redis can be used purely as a caching layer to speed up web applications by storing frequently accessed data in RAM, reducing load on the primary database."
+  },
+  {
+    "id": "32",
+    "text": "Redis as a vector store is different from Redis as a cache. As a vector store it stores high-dimensional embeddings; as a cache it stores key-value pairs with TTL expiry."
+  },
+  {
+    "id": "33",
+    "text": "Semantic search finds documents based on meaning rather than exact word matches. A query about 'automobile' can match documents about 'car', 'vehicle', or 'sedan'."
+  },
+  {
+    "id": "34",
+    "text": "Sentence Transformers is a Python library that fine-tunes BERT-based models to produce semantically meaningful sentence embeddings, commonly used in semantic search and RAG."
+  },
+  {
+    "id": "35",
+    "text": "The cosine distance between two vectors is 1 minus their cosine similarity. A distance of 0 means identical direction; a distance of 1 means orthogonal (unrelated) vectors."
+  },
+  {
+    "id": "36",
+    "text": "Hallucination in LLMs refers to confident generation of factually incorrect information. RAG reduces hallucination by grounding responses in retrieved, factual documents."
+  },
+  {
+    "id": "37",
+    "text": "An AI agent is an autonomous system that perceives its environment, reasons about it, and takes actions. In Agentic RAG the agent decides what to search and when to stop searching."
+  },
+  {
+    "id": "38",
+    "text": "Function calling in Gemini allows developers to define Python functions as tools. The model decides when to call them and passes structured arguments, enabling agentic behaviour."
+  },
+  {
+    "id": "39",
+    "text": "When comparing Redis as a vector database versus dedicated vector databases like Pinecone or Weaviate, Redis excels in low-latency caching but may lack advanced indexing features."
+  }
+]
